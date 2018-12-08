@@ -26,7 +26,7 @@ public class aplusb {
             a = a ^ b;
             b = carry << 1;
         }
-        System.out.println(a);
+        return a;
     }
 }
 
