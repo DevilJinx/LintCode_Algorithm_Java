@@ -16,11 +16,8 @@ Challenge
 Of course you can just return a + b to get accepted. But Can you challenge not do it like that?(You should not use + or any 
 arithmetic operators.)
 */
-
-public class aplusb {
-    public static void main(String[] args){
-        int a = 1;
-        int b = 2;
+class Solution{
+    public int aplusb (int a, int b){
         while (b != 0) {
             int carry = a & b;
             a = a ^ b;
